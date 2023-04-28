@@ -1,0 +1,28 @@
+.monitor {
+    border: solid 1px rgb(156, 149, 149);
+    width: 50%;
+    height: 100px;
+    margin: 20px auto;
+}
+.keyboard {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(114, 114, 114) ;
+    border: solid 2px black;
+    border-radius: 3px;
+}
+.keyboard-styles {
+    width: 50%;
+    height: 300px;
+    background-color: rgb(157 156 156);
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+.key {
+    width: 37px;
+    height: 43px;
+    border-radius: 5px;
+    color: rgb(243, 246, 248);
+    margin: 2px;
+    background-color: rgb(24, 26, 24);
+}
