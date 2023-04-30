@@ -137,10 +137,10 @@ const Keyboard = {
                             default:
                                 keyElement.textContent = key.toLowerCase();
 
-                                /*keyElement.addEventListener("click", () => {
+                                keyElement.addEventListener("click", () => {
                                     this.propeties.value = this.propeties.capsLock ? key.toUpperCase() : key.toLowerCase();
                                     this._triggerEvent("oninput");
-                                });*/
+                                });
                                 break;
             }
             fragment.appendChild(keyElement);
@@ -168,19 +168,6 @@ const Keyboard = {
         }
     },
 
-   /* open(initialValue, oninput, onclose){
-        this.properties.value = initialValue || "";
-        this.eventHandlers.oninput = oninput;
-        this.eventHandlers.onclose = onclose;
-        this.elements.main.classList.remove("keyboard-hidden");
-    },
-
-    close(){
-        this.properties.value = "";
-        this.eventHandlers.oninput = oninput;
-        this.eventHandlers.onclose = onclose;
-
-    }*/
 };
 
 window.addEventListener("DOMContentLoaded", function(){

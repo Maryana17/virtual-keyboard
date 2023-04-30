@@ -64,7 +64,7 @@
     justify-content: center;
     position: relative;
 }
-.keyboard-key-active{
+.keyboard-key-wide:active{
     background-color: rgb(75, 116, 102);
 }
 .keyboard-key-dark {
