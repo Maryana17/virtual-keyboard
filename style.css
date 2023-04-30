@@ -1,4 +1,4 @@
-.monitor {
+.keyboard-input {
     border: solid 1px rgb(156, 149, 149);
     width: 710px;
     height: 200px;
@@ -63,6 +63,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+.keyboard-key-active{
+    background-color: rgb(75, 116, 102);
 }
 .keyboard-key-dark {
     width: 45px;
