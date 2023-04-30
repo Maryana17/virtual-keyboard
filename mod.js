@@ -175,6 +175,9 @@ const Keyboard = {
     },
 
     close(){
+        this.properties.value = "";
+        this.eventHandlers.oninput = oninput;
+        this.eventHandlers.onclose = onclose;
 
     }
 };
